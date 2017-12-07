@@ -1,0 +1,55 @@
+.parent {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.sections {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+#section1 {
+  background-image: url('../assets/wall.jpg');
+}
+
+#section2 {
+  background-image: url('../assets/wall1.jpg');
+}
+
+.card {
+  font-family: "Arial Rounded MT Bold";
+  background: rgba(33, 180, 166, 0.4);
+  color: honeydew;
+}
+
+#c1 {
+  width: 70%;
+}
+
+#c2 {
+  margin-left: 10%;
+  position: relative;
+  vertical-align: bottom;
+  overflow: hidden;
+  width: 70%;
+}
+
+.signup-form {
+  width: 100%;
+}
+
+#email {
+  width: 70%;
+}
+
+#sbutton {
+  font-style: italic;
+  background-color: crimson;
+  font-family: "Arial Rounded MT Bold";
+  margin-left: 5%;
+  width: 20%;
+}
