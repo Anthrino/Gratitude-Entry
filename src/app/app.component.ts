@@ -12,9 +12,8 @@ export class AppComponent {
   constructor(private _subsService: SubscriberService) {
   }
 
-  querySubmit(email: string, event: Event): void {
-    event.preventDefault();
-    console.log(email);
-    this._subsService.addUser(email);
+  querySubmit(event: Event): void {
+    console.log(this.email);
+    this._subsService.addUser(this.email);
   }
 }

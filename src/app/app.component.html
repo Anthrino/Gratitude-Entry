@@ -53,9 +53,9 @@
         </mat-card-subtitle>
         <form class="signup-form">
           <mat-form-field id="email">
-            <input matInput type="email" placeholder="Your mail-id..">
+            <input matInput  [(ngModel)]="email" name="email" type="email" placeholder="Your mail-id..">
           </mat-form-field>
-          <button id="sbutton" mat-raised-button>Get the Beta</button>
+          <button id="sbutton" (click)="querySubmit($event)" mat-raised-button>Get the Beta</button>
         </form>
       </mat-card>
     </div>
